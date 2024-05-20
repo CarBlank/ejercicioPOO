@@ -44,7 +44,7 @@ person2.register()
 
 class Teacher extends Person {
     constructor (name,age,genre,course,group,subject,level) {
-    super (name,age,genre,course,group)
+    super (name,age,genre,course,groupcd)
     this.subject = subject
     this.level = level
 
